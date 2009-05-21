@@ -11,15 +11,18 @@
 
 @implementation MMTheatersController
 
-/*
- // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
-        // Custom initialization
-    }
-    return self;
+- (id)init {
+  if (self = [super init]) {
+
+  }
+  return self;
 }
-*/
+
+- (void)viewWillAppear:(BOOL)animated {
+  TTURLRequest* request = [TTURLRequest requestWithURL:@"http://localhost:3000/theaters.json?postal_code=20036" delegate:self];
+  request.response = [[[TTURLDataResponse alloc] init] autorelease];
+  [request send];
+}
 
 /*
 // Implement loadView to create a view hierarchy programmatically, without using a nib.
@@ -56,7 +59,16 @@
 
 
 - (void)dealloc {
-    [super dealloc];
+  [super dealloc];
+}
+
+- (void)requestDidFinishLoad:(TTURLRequest*)request {
+  TTURLDataResponse *response = (TTURLDataResponse *)request.response;
+  NSString *json = [[[NSString alloc] initWithData:response.data encoding:NSUTF8StringEncoding] autorelease];
+  
+  id theaters = [json JSONValue];
+  
+  NSLog(@"requestDidFinishLoad: %@", theaters);
 }
 
 

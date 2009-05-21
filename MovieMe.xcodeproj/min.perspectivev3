@@ -200,8 +200,8 @@
 	<array/>
 	<key>PerspectiveWidths</key>
 	<array>
-		<integer>-1</integer>
-		<integer>-1</integer>
+		<integer>1396</integer>
+		<integer>1396</integer>
 	</array>
 	<key>Perspectives</key>
 	<array>
@@ -269,20 +269,16 @@
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>39760D0C0FC5FB2000FF561D</string>
+								<string>29B97317FDCFA39411CA2CEA</string>
+								<string>39760D280FC6023700FF561D</string>
 								<string>1C37FBAC04509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>6</integer>
-									<integer>5</integer>
-									<integer>4</integer>
-									<integer>0</integer>
-								</array>
-								<array>
-									<integer>7</integer>
-									<integer>5</integer>
-									<integer>4</integer>
+									<integer>23</integer>
+									<integer>22</integer>
+									<integer>21</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -320,7 +316,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>39760C840FC5F66A00FF561D</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MMTheatersController.m</string>
+								<string>tabTheaters.png</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -328,19 +324,35 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>39760C850FC5F66A00FF561D</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MMTheatersController.m</string>
+										<string>tabTheaters.png</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>39760D160FC5FD7200FF561D</string>
+										<string>39760D650FC6090C00FF561D</string>
 										<key>history</key>
 										<array>
 											<string>39760D0D0FC5FB2C00FF561D</string>
-											<string>39760D0E0FC5FB2C00FF561D</string>
+											<string>39760D450FC6060F00FF561D</string>
+											<string>39760D460FC6060F00FF561D</string>
+											<string>39760D470FC6060F00FF561D</string>
+											<string>39760D480FC6060F00FF561D</string>
+											<string>39760D490FC6060F00FF561D</string>
+											<string>39760D4A0FC6060F00FF561D</string>
+											<string>39760D4B0FC6060F00FF561D</string>
+											<string>39760D4C0FC6060F00FF561D</string>
+											<string>39760D640FC6090500FF561D</string>
 										</array>
 										<key>prevStack</key>
 										<array>
 											<string>39760D0F0FC5FB2C00FF561D</string>
+											<string>39760D4E0FC6060F00FF561D</string>
+											<string>39760D4F0FC6060F00FF561D</string>
+											<string>39760D500FC6060F00FF561D</string>
+											<string>39760D510FC6060F00FF561D</string>
+											<string>39760D520FC6060F00FF561D</string>
+											<string>39760D530FC6060F00FF561D</string>
+											<string>39760D540FC6060F00FF561D</string>
+											<string>39760D550FC6060F00FF561D</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -419,8 +431,6 @@
 									<string>PBXCVSModule</string>
 								</dict>
 								<dict>
-									<key>BecomeActive</key>
-									<true/>
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXProjectModuleGUID</key>
@@ -518,12 +528,12 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {810, 0}}</string>
+						<string>{{0, 0}, {1396, 655}}</string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugCLIModule</string>
 					<key>Proportion</key>
-					<string>0pt</string>
+					<string>655pt</string>
 				</dict>
 				<dict>
 					<key>ContentConfiguration</key>
@@ -542,8 +552,8 @@
 								<string>yes</string>
 								<key>sizes</key>
 								<array>
-									<string>{{0, 0}, {395, 213}}</string>
-									<string>{{395, 0}, {415, 213}}</string>
+									<string>{{0, 0}, {681, 80}}</string>
+									<string>{{681, 0}, {715, 80}}</string>
 								</array>
 							</dict>
 							<key>VerticalSplitView</key>
@@ -558,8 +568,8 @@
 								<string>yes</string>
 								<key>sizes</key>
 								<array>
-									<string>{{0, 0}, {810, 213}}</string>
-									<string>{{0, 213}, {810, 225}}</string>
+									<string>{{0, 0}, {1396, 80}}</string>
+									<string>{{0, 73}, {1396, 77}}</string>
 								</array>
 							</dict>
 						</dict>
@@ -579,7 +589,7 @@
 						<key>DebugSTDIOWindowFrame</key>
 						<string>{{200, 200}, {500, 300}}</string>
 						<key>Frame</key>
-						<string>{{0, 7}, {810, 438}}</string>
+						<string>{{0, 660}, {1396, 122}}</string>
 						<key>PBXDebugSessionStackFrameViewKey</key>
 						<dict>
 							<key>DebugVariablesTableConfiguration</key>
@@ -589,16 +599,16 @@
 								<string>Value</string>
 								<real>85</real>
 								<string>Summary</string>
-								<real>185</real>
+								<real>485</real>
 							</array>
 							<key>Frame</key>
-							<string>{{395, 0}, {415, 213}}</string>
+							<string>{{681, 0}, {715, 80}}</string>
 						</dict>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugSessionModule</string>
 					<key>Proportion</key>
-					<string>438pt</string>
+					<string>122pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -653,7 +663,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>39760D170FC5FD7200FF561D</string>
 		<string>39760D180FC5FD7200FF561D</string>
 		<string>39760D190FC5FD7200FF561D</string>
 		<string>/Users/min/workspace/anerian/github/movieme_app/MovieMe.xcodeproj</string>

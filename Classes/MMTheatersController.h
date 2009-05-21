@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface MMTheatersController : UIViewController {
+@interface MMTheatersController : UIViewController<TTURLRequestDelegate> {
 
 }
 
