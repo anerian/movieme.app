@@ -7,18 +7,42 @@
 //
 
 #import "MovieMeAppDelegate.h"
+#import "MMTheatersController.h"
+#import "MMMoviesController.h"
+#import "MMUpcomingController.h"
+#import "MMBoxOfficeController.h"
+#import "MMFavoritesController.h"
 
 
 @implementation MovieMeAppDelegate
 
-@synthesize window;
-@synthesize tabBarController;
+@synthesize window = window_;
 
+- (UINavigationController *)createNavItem:(UIViewController *)viewController withName:(NSString *)name {
+  viewController.title = name;
+  viewController.tabBarItem.image = [UIImage imageNamed:[NSString stringWithFormat:@"tab%@.png", name]];
+    
+  UINavigationController *navigationController = [[[UINavigationController alloc] initWithRootViewController:viewController] autorelease];
+    
+  [viewController release];
+    
+  return navigationController;
+}
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
-    
-    // Add the tab bar controller's current view as a subview of the window
-    [window addSubview:tabBarController.view];
+  NSLog(@"applicationDidFinishLaunching");
+	NSMutableArray *viewControllers = [NSMutableArray arrayWithCapacity:5];
+
+  tabBarController_ = [[UITabBarController alloc] init];
+
+  [viewControllers addObject:[self createNavItem:[[MMTheatersController alloc] init] withName:@"Theaters"]];
+  [viewControllers addObject:[self createNavItem:[[MMMoviesController alloc] init] withName:@"Movies"]];
+  [viewControllers addObject:[self createNavItem:[[MMFavoritesController alloc] init] withName:@"Favorites"]];
+  [viewControllers addObject:[self createNavItem:[[MMBoxOfficeController alloc] init] withName:@"Box Office"]];
+
+  tabBarController_.viewControllers = viewControllers;
+
+  [window_ addSubview:tabBarController_.view];
 }
 
 
@@ -36,8 +60,8 @@
 
 
 - (void)dealloc {
-    [tabBarController release];
-    [window release];
+    [tabBarController_ release];
+    [window_ release];
     [super dealloc];
 }
 

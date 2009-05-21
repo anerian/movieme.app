@@ -24,6 +24,15 @@
 		39760CEE0FC5F9AB00FF561D /* libThree20.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39760CED0FC5F9A700FF561D /* libThree20.a */; };
 		39760CF20FC5FA2900FF561D /* Three20.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 39760CF10FC5FA2900FF561D /* Three20.bundle */; };
 		39760D030FC5FA7300FF561D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39760D020FC5FA7300FF561D /* QuartzCore.framework */; };
+		39760D0B0FC5FB1700FF561D /* MMTheatersController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39760D0A0FC5FB1700FF561D /* MMTheatersController.m */; };
+		39760D1F0FC5FE1700FF561D /* MMMoviesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39760D1E0FC5FE1700FF561D /* MMMoviesController.m */; };
+		39760D220FC5FE3100FF561D /* MMBoxOfficeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39760D210FC5FE3100FF561D /* MMBoxOfficeController.m */; };
+		39760D250FC5FE6200FF561D /* MMUpcomingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39760D240FC5FE6200FF561D /* MMUpcomingController.m */; };
+		39760D2A0FC6024000FF561D /* tabBox Office.png in Resources */ = {isa = PBXBuildFile; fileRef = 39760D290FC6024000FF561D /* tabBox Office.png */; };
+		39760D300FC6027E00FF561D /* tabMovies.png in Resources */ = {isa = PBXBuildFile; fileRef = 39760D2F0FC6027E00FF561D /* tabMovies.png */; };
+		39760D350FC602B400FF561D /* tabFavorites.png in Resources */ = {isa = PBXBuildFile; fileRef = 39760D340FC602B400FF561D /* tabFavorites.png */; };
+		39760D380FC602C100FF561D /* MMFavoritesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39760D370FC602C100FF561D /* MMFavoritesController.m */; };
+		39760D3F0FC6033100FF561D /* tabTheaters.png in Resources */ = {isa = PBXBuildFile; fileRef = 39760D3E0FC6033100FF561D /* tabTheaters.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +81,20 @@
 		39760CE80FC5F9A700FF561D /* Three20.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20.xcodeproj; path = ../three20/src/Three20.xcodeproj; sourceTree = SOURCE_ROOT; };
 		39760CF10FC5FA2900FF561D /* Three20.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Three20.bundle; path = ../three20/src/Three20.bundle; sourceTree = SOURCE_ROOT; };
 		39760D020FC5FA7300FF561D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = ../../../../../../Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = SOURCE_ROOT; };
+		39760D090FC5FB1700FF561D /* MMTheatersController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMTheatersController.h; sourceTree = "<group>"; };
+		39760D0A0FC5FB1700FF561D /* MMTheatersController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMTheatersController.m; sourceTree = "<group>"; };
+		39760D1D0FC5FE1700FF561D /* MMMoviesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMoviesController.h; sourceTree = "<group>"; };
+		39760D1E0FC5FE1700FF561D /* MMMoviesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMoviesController.m; sourceTree = "<group>"; };
+		39760D200FC5FE3100FF561D /* MMBoxOfficeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMBoxOfficeController.h; sourceTree = "<group>"; };
+		39760D210FC5FE3100FF561D /* MMBoxOfficeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMBoxOfficeController.m; sourceTree = "<group>"; };
+		39760D230FC5FE6200FF561D /* MMUpcomingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMUpcomingController.h; sourceTree = "<group>"; };
+		39760D240FC5FE6200FF561D /* MMUpcomingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMUpcomingController.m; sourceTree = "<group>"; };
+		39760D290FC6024000FF561D /* tabBox Office.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBox Office.png"; sourceTree = "<group>"; };
+		39760D2F0FC6027E00FF561D /* tabMovies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tabMovies.png; path = Images/tabMovies.png; sourceTree = SOURCE_ROOT; };
+		39760D340FC602B400FF561D /* tabFavorites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tabFavorites.png; path = Images/tabFavorites.png; sourceTree = SOURCE_ROOT; };
+		39760D360FC602C100FF561D /* MMFavoritesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMFavoritesController.h; sourceTree = "<group>"; };
+		39760D370FC602C100FF561D /* MMFavoritesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMFavoritesController.m; sourceTree = "<group>"; };
+		39760D3E0FC6033100FF561D /* tabTheaters.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tabTheaters.png; path = Images/tabTheaters.png; sourceTree = SOURCE_ROOT; };
 		8D1107310486CEB800E47090 /* MovieMe-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MovieMe-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,6 +117,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				39760D0C0FC5FB2000FF561D /* Controllers */,
 				28216C950DB411BC00E5133A /* FirstViewController.h */,
 				28216C960DB411BC00E5133A /* FirstViewController.m */,
 				1D3623240D0F684500981E51 /* MovieMeAppDelegate.h */,
@@ -137,6 +161,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				39760D280FC6023700FF561D /* Images */,
 				282CCBFD0DB6C98000C4EA27 /* SecondView.xib */,
 				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* MovieMe-Info.plist */,
@@ -191,6 +216,34 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		39760D0C0FC5FB2000FF561D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				39760D090FC5FB1700FF561D /* MMTheatersController.h */,
+				39760D0A0FC5FB1700FF561D /* MMTheatersController.m */,
+				39760D1D0FC5FE1700FF561D /* MMMoviesController.h */,
+				39760D1E0FC5FE1700FF561D /* MMMoviesController.m */,
+				39760D200FC5FE3100FF561D /* MMBoxOfficeController.h */,
+				39760D210FC5FE3100FF561D /* MMBoxOfficeController.m */,
+				39760D230FC5FE6200FF561D /* MMUpcomingController.h */,
+				39760D240FC5FE6200FF561D /* MMUpcomingController.m */,
+				39760D360FC602C100FF561D /* MMFavoritesController.h */,
+				39760D370FC602C100FF561D /* MMFavoritesController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		39760D280FC6023700FF561D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				39760D3E0FC6033100FF561D /* tabTheaters.png */,
+				39760D340FC602B400FF561D /* tabFavorites.png */,
+				39760D2F0FC6027E00FF561D /* tabMovies.png */,
+				39760D290FC6024000FF561D /* tabBox Office.png */,
+			);
+			path = Images;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -254,6 +307,10 @@
 				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
 				282CCBFE0DB6C98000C4EA27 /* SecondView.xib in Resources */,
 				39760CF20FC5FA2900FF561D /* Three20.bundle in Resources */,
+				39760D2A0FC6024000FF561D /* tabBox Office.png in Resources */,
+				39760D300FC6027E00FF561D /* tabMovies.png in Resources */,
+				39760D350FC602B400FF561D /* tabFavorites.png in Resources */,
+				39760D3F0FC6033100FF561D /* tabTheaters.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +330,11 @@
 				39760CE30FC5F89D00FF561D /* SBJsonBase.m in Sources */,
 				39760CE40FC5F89D00FF561D /* SBJsonParser.m in Sources */,
 				39760CE50FC5F89D00FF561D /* SBJsonWriter.m in Sources */,
+				39760D0B0FC5FB1700FF561D /* MMTheatersController.m in Sources */,
+				39760D1F0FC5FE1700FF561D /* MMMoviesController.m in Sources */,
+				39760D220FC5FE3100FF561D /* MMBoxOfficeController.m in Sources */,
+				39760D250FC5FE6200FF561D /* MMUpcomingController.m in Sources */,
+				39760D380FC602C100FF561D /* MMFavoritesController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

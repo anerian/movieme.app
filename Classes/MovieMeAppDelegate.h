@@ -9,11 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface MovieMeAppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate> {
-    UIWindow *window;
-    UITabBarController *tabBarController;
+    UIWindow *window_;
+    UITabBarController *tabBarController_;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet UITabBarController *tabBarController;
 
 @end

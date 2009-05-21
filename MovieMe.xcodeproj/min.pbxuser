@@ -66,6 +66,13 @@
 			PBXPerProjectTemplateStateSaveDate = 264632146;
 			PBXWorkspaceStateSaveDate = 264632146;
 		};
+		perUserProjectItems = {
+			39760D0D0FC5FB2C00FF561D /* PBXTextBookmark */ = 39760D0D0FC5FB2C00FF561D /* PBXTextBookmark */;
+			39760D0E0FC5FB2C00FF561D /* PBXTextBookmark */ = 39760D0E0FC5FB2C00FF561D /* PBXTextBookmark */;
+			39760D0F0FC5FB2C00FF561D /* PBXTextBookmark */ = 39760D0F0FC5FB2C00FF561D /* PBXTextBookmark */;
+			39760D100FC5FB2C00FF561D /* PBXTextBookmark */ = 39760D100FC5FB2C00FF561D /* PBXTextBookmark */;
+			39760D160FC5FD7200FF561D /* PBXTextBookmark */ = 39760D160FC5FD7200FF561D /* PBXTextBookmark */;
+		};
 		sourceControlManager = 39760C8A0FC5F66A00FF561D /* Source Control */;
 		userBuildSettings = {
 		};
@@ -91,6 +98,8 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = MovieMe;
+		savedGlobals = {
+		};
 		sourceDirectories = (
 		);
 	};
@@ -104,5 +113,90 @@
 	39760C8B0FC5F66A00FF561D /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	39760D090FC5FB1700FF561D /* MMTheatersController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1128, 679}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 227}";
+		};
+	};
+	39760D0A0FC5FB1700FF561D /* MMTheatersController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 992}}";
+			sepNavSelRange = "{1510, 0}";
+			sepNavVisRange = "{0, 860}";
+		};
+	};
+	39760D0D0FC5FB2C00FF561D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39760D090FC5FB1700FF561D /* MMTheatersController.h */;
+		name = "MMTheatersController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 227;
+		vrLoc = 0;
+	};
+	39760D0E0FC5FB2C00FF561D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39760D0A0FC5FB1700FF561D /* MMTheatersController.m */;
+		name = "MMTheatersController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1161;
+		vrLoc = 0;
+	};
+	39760D0F0FC5FB2C00FF561D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39760D090FC5FB1700FF561D /* MMTheatersController.h */;
+		name = "MMTheatersController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 227;
+		vrLoc = 0;
+	};
+	39760D100FC5FB2C00FF561D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39760D0A0FC5FB1700FF561D /* MMTheatersController.m */;
+		name = "MMTheatersController.m: 10";
+		rLen = 0;
+		rLoc = 172;
+		rType = 0;
+		vrLen = 1161;
+		vrLoc = 0;
+	};
+	39760D160FC5FD7200FF561D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39760D0A0FC5FB1700FF561D /* MMTheatersController.m */;
+		name = "MMTheatersController.m: 63";
+		rLen = 0;
+		rLoc = 1510;
+		rType = 0;
+		vrLen = 835;
+		vrLoc = 0;
+	};
+	39760D1D0FC5FE1700FF561D /* MMMoviesController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1128, 521}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 223}";
+		};
+	};
+	39760D200FC5FE3100FF561D /* MMBoxOfficeController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1128, 521}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 229}";
+		};
+	};
+	39760D230FC5FE6200FF561D /* MMUpcomingController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1128, 521}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 227}";
+		};
 	};
 }

@@ -230,8 +230,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -270,12 +268,21 @@
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
+								<string>39760D0C0FC5FB2000FF561D</string>
 								<string>1C37FBAC04509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>11</integer>
+									<integer>6</integer>
+									<integer>5</integer>
+									<integer>4</integer>
+									<integer>0</integer>
+								</array>
+								<array>
+									<integer>7</integer>
+									<integer>5</integer>
+									<integer>4</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -313,7 +320,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>39760C840FC5F66A00FF561D</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>MMTheatersController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -321,7 +328,20 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>39760C850FC5F66A00FF561D</string>
 										<key>PBXProjectModuleLabel</key>
-										<string></string>
+										<string>MMTheatersController.m</string>
+										<key>_historyCapacity</key>
+										<integer>0</integer>
+										<key>bookmark</key>
+										<string>39760D160FC5FD7200FF561D</string>
+										<key>history</key>
+										<array>
+											<string>39760D0D0FC5FB2C00FF561D</string>
+											<string>39760D0E0FC5FB2C00FF561D</string>
+										</array>
+										<key>prevStack</key>
+										<array>
+											<string>39760D0F0FC5FB2C00FF561D</string>
+										</array>
 									</dict>
 									<key>SplitCount</key>
 									<string>1</string>
@@ -334,18 +354,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1189, 0}}</string>
+								<string>{{0, 0}, {1189, 553}}</string>
 								<key>RubberWindowFrame</key>
 								<string>44 55 1396 823 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>0pt</string>
+							<string>553pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>777pt</string>
+							<string>224pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -359,9 +379,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1189, 750}}</string>
-										<key>RubberWindowFrame</key>
-										<string>44 55 1396 823 0 0 1440 878 </string>
+										<string>{{10, 27}, {1189, 39}}</string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -401,6 +419,8 @@
 									<string>PBXCVSModule</string>
 								</dict>
 								<dict>
+									<key>BecomeActive</key>
+									<true/>
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXProjectModuleGUID</key>
@@ -415,7 +435,9 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 31}, {603, 297}}</string>
+										<string>{{10, 27}, {1189, 197}}</string>
+										<key>RubberWindowFrame</key>
+										<string>44 55 1396 823 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -631,6 +653,9 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>39760D170FC5FD7200FF561D</string>
+		<string>39760D180FC5FD7200FF561D</string>
+		<string>39760D190FC5FD7200FF561D</string>
 		<string>/Users/min/workspace/anerian/github/movieme_app/MovieMe.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
