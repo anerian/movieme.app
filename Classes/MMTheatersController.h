@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MMTheater.h"
 
 
-@interface MMTheatersController : UIViewController<TTURLRequestDelegate> {
-
+@interface MMTheatersController : UITableViewController<TTURLRequestDelegate> {
+@private
+  NSArray *theaters_;
 }
 
 @end

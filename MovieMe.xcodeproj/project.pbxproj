@@ -33,6 +33,20 @@
 		39760D350FC602B400FF561D /* tabFavorites.png in Resources */ = {isa = PBXBuildFile; fileRef = 39760D340FC602B400FF561D /* tabFavorites.png */; };
 		39760D380FC602C100FF561D /* MMFavoritesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39760D370FC602C100FF561D /* MMFavoritesController.m */; };
 		39760D3F0FC6033100FF561D /* tabTheaters.png in Resources */ = {isa = PBXBuildFile; fileRef = 39760D3E0FC6033100FF561D /* tabTheaters.png */; };
+		39760DE00FC6840900FF561D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39760DDF0FC6840900FF561D /* CoreLocation.framework */; };
+		39760E4E0FCBA34F00FF561D /* MMLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 39760E4D0FCBA34F00FF561D /* MMLocation.m */; };
+		39760E7E0FCC277900FF561D /* MMTheaterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39760E7D0FCC277900FF561D /* MMTheaterCell.m */; };
+		39760E820FCC27AB00FF561D /* MMTheater.m in Sources */ = {isa = PBXBuildFile; fileRef = 39760E810FCC27AB00FF561D /* MMTheater.m */; };
+		39760E850FCC27B900FF561D /* MMMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 39760E840FCC27B900FF561D /* MMMovie.m */; };
+		39760E880FCC283C00FF561D /* MMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 39760E870FCC283C00FF561D /* MMModel.m */; };
+		39760ED90FCC3CFC00FF561D /* MMShowsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39760ED80FCC3CFC00FF561D /* MMShowsController.m */; };
+		39760EE80FCC403C00FF561D /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39760EE20FCC403C00FF561D /* FMDatabase.m */; };
+		39760EE90FCC403C00FF561D /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 39760EE40FCC403C00FF561D /* FMDatabaseAdditions.m */; };
+		39760EEB0FCC403C00FF561D /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 39760EE70FCC403C00FF561D /* FMResultSet.m */; };
+		39760EF40FCC41A700FF561D /* AKNSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 39760EF30FCC41A700FF561D /* AKNSString+Utils.m */; };
+		39760EF80FCC42CA00FF561D /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 39760EF70FCC42CA00FF561D /* RegexKitLite.m */; };
+		39760F100FCC446900FF561D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 39760F0F0FCC446900FF561D /* libsqlite3.dylib */; };
+		39760F130FCC44A800FF561D /* libicucore.A.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 39760F120FCC44A800FF561D /* libicucore.A.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +109,32 @@
 		39760D360FC602C100FF561D /* MMFavoritesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMFavoritesController.h; sourceTree = "<group>"; };
 		39760D370FC602C100FF561D /* MMFavoritesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMFavoritesController.m; sourceTree = "<group>"; };
 		39760D3E0FC6033100FF561D /* tabTheaters.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tabTheaters.png; path = Images/tabTheaters.png; sourceTree = SOURCE_ROOT; };
+		39760DDF0FC6840900FF561D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		39760E4C0FCBA34F00FF561D /* MMLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMLocation.h; sourceTree = "<group>"; };
+		39760E4D0FCBA34F00FF561D /* MMLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMLocation.m; sourceTree = "<group>"; };
+		39760E7C0FCC277900FF561D /* MMTheaterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMTheaterCell.h; sourceTree = "<group>"; };
+		39760E7D0FCC277900FF561D /* MMTheaterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMTheaterCell.m; sourceTree = "<group>"; };
+		39760E800FCC27AB00FF561D /* MMTheater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMTheater.h; sourceTree = "<group>"; };
+		39760E810FCC27AB00FF561D /* MMTheater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMTheater.m; sourceTree = "<group>"; };
+		39760E830FCC27B900FF561D /* MMMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMovie.h; sourceTree = "<group>"; };
+		39760E840FCC27B900FF561D /* MMMovie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMovie.m; sourceTree = "<group>"; };
+		39760E860FCC283C00FF561D /* MMModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMModel.h; sourceTree = "<group>"; };
+		39760E870FCC283C00FF561D /* MMModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMModel.m; sourceTree = "<group>"; };
+		39760ED70FCC3CFC00FF561D /* MMShowsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMShowsController.h; sourceTree = "<group>"; };
+		39760ED80FCC3CFC00FF561D /* MMShowsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMShowsController.m; sourceTree = "<group>"; };
+		39760EE10FCC403C00FF561D /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = External/FMDB/FMDatabase.h; sourceTree = SOURCE_ROOT; };
+		39760EE20FCC403C00FF561D /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = External/FMDB/FMDatabase.m; sourceTree = SOURCE_ROOT; };
+		39760EE30FCC403C00FF561D /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = External/FMDB/FMDatabaseAdditions.h; sourceTree = SOURCE_ROOT; };
+		39760EE40FCC403C00FF561D /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = External/FMDB/FMDatabaseAdditions.m; sourceTree = SOURCE_ROOT; };
+		39760EE60FCC403C00FF561D /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = External/FMDB/FMResultSet.h; sourceTree = SOURCE_ROOT; };
+		39760EE70FCC403C00FF561D /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = External/FMDB/FMResultSet.m; sourceTree = SOURCE_ROOT; };
+		39760EEF0FCC415F00FF561D /* AnerianKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnerianKit.h; sourceTree = "<group>"; };
+		39760EF20FCC41A700FF561D /* AKNSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AKNSString+Utils.h"; sourceTree = "<group>"; };
+		39760EF30FCC41A700FF561D /* AKNSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AKNSString+Utils.m"; sourceTree = "<group>"; };
+		39760EF60FCC42CA00FF561D /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegexKitLite.h; path = External/RegexKitLite/RegexKitLite.h; sourceTree = SOURCE_ROOT; };
+		39760EF70FCC42CA00FF561D /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegexKitLite.m; path = External/RegexKitLite/RegexKitLite.m; sourceTree = SOURCE_ROOT; };
+		39760F0F0FCC446900FF561D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../../../Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/lib/libsqlite3.dylib; sourceTree = SOURCE_ROOT; };
+		39760F120FCC44A800FF561D /* libicucore.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.A.dylib; path = ../../../../../../Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/lib/libicucore.A.dylib; sourceTree = SOURCE_ROOT; };
 		8D1107310486CEB800E47090 /* MovieMe-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MovieMe-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +148,9 @@
 				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
 				39760CEE0FC5F9AB00FF561D /* libThree20.a in Frameworks */,
 				39760D030FC5FA7300FF561D /* QuartzCore.framework in Frameworks */,
+				39760DE00FC6840900FF561D /* CoreLocation.framework in Frameworks */,
+				39760F100FCC446900FF561D /* libsqlite3.dylib in Frameworks */,
+				39760F130FCC44A800FF561D /* libicucore.A.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,10 +161,14 @@
 			isa = PBXGroup;
 			children = (
 				39760D0C0FC5FB2000FF561D /* Controllers */,
+				39760E7F0FCC279300FF561D /* Model */,
+				39760E7B0FCC276500FF561D /* Views */,
 				28216C950DB411BC00E5133A /* FirstViewController.h */,
 				28216C960DB411BC00E5133A /* FirstViewController.m */,
 				1D3623240D0F684500981E51 /* MovieMeAppDelegate.h */,
 				1D3623250D0F684500981E51 /* MovieMeAppDelegate.m */,
+				39760E4C0FCBA34F00FF561D /* MMLocation.h */,
+				39760E4D0FCBA34F00FF561D /* MMLocation.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -141,6 +188,7 @@
 				39760CE80FC5F9A700FF561D /* Three20.xcodeproj */,
 				39760CD10FC5F89D00FF561D /* External */,
 				080E96DDFE201D6D7F000001 /* Classes */,
+				39760EED0FCC412D00FF561D /* Extensions */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
@@ -172,6 +220,9 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				39760F120FCC44A800FF561D /* libicucore.A.dylib */,
+				39760F0F0FCC446900FF561D /* libsqlite3.dylib */,
+				39760DDF0FC6840900FF561D /* CoreLocation.framework */,
 				39760D020FC5FA7300FF561D /* QuartzCore.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
@@ -183,6 +234,8 @@
 		39760CD10FC5F89D00FF561D /* External */ = {
 			isa = PBXGroup;
 			children = (
+				39760EF50FCC42CA00FF561D /* RegexKitLite */,
+				39760EE00FCC403C00FF561D /* FMDB */,
 				39760CD20FC5F89D00FF561D /* JSON */,
 			);
 			path = External;
@@ -230,6 +283,8 @@
 				39760D240FC5FE6200FF561D /* MMUpcomingController.m */,
 				39760D360FC602C100FF561D /* MMFavoritesController.h */,
 				39760D370FC602C100FF561D /* MMFavoritesController.m */,
+				39760ED70FCC3CFC00FF561D /* MMShowsController.h */,
+				39760ED80FCC3CFC00FF561D /* MMShowsController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -243,6 +298,63 @@
 				39760D290FC6024000FF561D /* tabBox Office.png */,
 			);
 			path = Images;
+			sourceTree = SOURCE_ROOT;
+		};
+		39760E7B0FCC276500FF561D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				39760E7C0FCC277900FF561D /* MMTheaterCell.h */,
+				39760E7D0FCC277900FF561D /* MMTheaterCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		39760E7F0FCC279300FF561D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				39760E800FCC27AB00FF561D /* MMTheater.h */,
+				39760E810FCC27AB00FF561D /* MMTheater.m */,
+				39760E830FCC27B900FF561D /* MMMovie.h */,
+				39760E840FCC27B900FF561D /* MMMovie.m */,
+				39760E860FCC283C00FF561D /* MMModel.h */,
+				39760E870FCC283C00FF561D /* MMModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		39760EE00FCC403C00FF561D /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				39760EE10FCC403C00FF561D /* FMDatabase.h */,
+				39760EE20FCC403C00FF561D /* FMDatabase.m */,
+				39760EE30FCC403C00FF561D /* FMDatabaseAdditions.h */,
+				39760EE40FCC403C00FF561D /* FMDatabaseAdditions.m */,
+				39760EE60FCC403C00FF561D /* FMResultSet.h */,
+				39760EE70FCC403C00FF561D /* FMResultSet.m */,
+			);
+			name = FMDB;
+			path = External/FMDB;
+			sourceTree = SOURCE_ROOT;
+		};
+		39760EED0FCC412D00FF561D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				39760EEF0FCC415F00FF561D /* AnerianKit.h */,
+				39760EF20FCC41A700FF561D /* AKNSString+Utils.h */,
+				39760EF30FCC41A700FF561D /* AKNSString+Utils.m */,
+			);
+			name = Extensions;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		39760EF50FCC42CA00FF561D /* RegexKitLite */ = {
+			isa = PBXGroup;
+			children = (
+				39760EF60FCC42CA00FF561D /* RegexKitLite.h */,
+				39760EF70FCC42CA00FF561D /* RegexKitLite.m */,
+			);
+			name = RegexKitLite;
+			path = External/RegexKitLite;
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
@@ -335,6 +447,17 @@
 				39760D220FC5FE3100FF561D /* MMBoxOfficeController.m in Sources */,
 				39760D250FC5FE6200FF561D /* MMUpcomingController.m in Sources */,
 				39760D380FC602C100FF561D /* MMFavoritesController.m in Sources */,
+				39760E4E0FCBA34F00FF561D /* MMLocation.m in Sources */,
+				39760E7E0FCC277900FF561D /* MMTheaterCell.m in Sources */,
+				39760E820FCC27AB00FF561D /* MMTheater.m in Sources */,
+				39760E850FCC27B900FF561D /* MMMovie.m in Sources */,
+				39760E880FCC283C00FF561D /* MMModel.m in Sources */,
+				39760ED90FCC3CFC00FF561D /* MMShowsController.m in Sources */,
+				39760EE80FCC403C00FF561D /* FMDatabase.m in Sources */,
+				39760EE90FCC403C00FF561D /* FMDatabaseAdditions.m in Sources */,
+				39760EEB0FCC403C00FF561D /* FMResultSet.m in Sources */,
+				39760EF40FCC41A700FF561D /* AKNSString+Utils.m in Sources */,
+				39760EF80FCC42CA00FF561D /* RegexKitLite.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,4 +7,12 @@
     #import <UIKit/UIKit.h>
     #import "JSON.h"
     #import "Three20/Three20.h"
+    #import <CoreLocation/CoreLocation.h>
+    #define HexToUIColor(c) [UIColor colorWithRed:((c>>16)&0xFF)/255.0 green:((c>>8)&0xFF)/255.0 blue:(c&0xFF)/255.0 alpha:1.0]
+    #define DEG2RAD(degrees) (M_PI * degrees / 180)
+    #define RAD2DEG(radians) (radians * 180 / M_PI)
+    
+    #define MMNullable(o) ([o isEqual:[NSNull null]] ? nil : o)
+    #import "FMDatabase.h"
+    #import "AnerianKit.h"
 #endif
