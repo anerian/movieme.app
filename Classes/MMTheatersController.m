@@ -7,6 +7,7 @@
 //
 
 #import "MMTheatersController.h"
+#import "MMTheaterController.h"
 #import "MMLocation.h"
 #import "MMTheaterCell.h"
 
@@ -92,6 +93,11 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+  MMTheater *theater = [theaters_ objectAtIndex:indexPath.row];
+  
+  MMTheaterController *theaterController = [[[MMTheaterController alloc] initWithTheater:theater] autorelease];
+  
+  [self.navigationController pushViewController:theaterController animated:YES];
   [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
@@ -124,10 +130,12 @@
   TTURLDataResponse *response = (TTURLDataResponse *)request.response;
   NSString *jsonString = [[[NSString alloc] initWithData:response.data encoding:NSUTF8StringEncoding] autorelease];
   id json = [jsonString JSONValue];
+
+  NSArray *movies = [MMMovie parseJSON:[json objectForKey:@"movies"]];
+  [MMMovie saveAll:movies];
   
   theaters_ = [[MMTheater parseJSON:[json objectForKey:@"theaters"]] retain];
   [self.tableView reloadData];
-  
   
   NSLog(@"requestDidFinishLoad: %@", theaters_);
 }

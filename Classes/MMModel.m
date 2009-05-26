@@ -40,7 +40,7 @@ static NSMutableDictionary *columns_ = nil;
     for (id attr in keys) {
       NSString *attrType = [properties objectForKey:attr];
       id value = [dictionary objectForKey:[attr ak_snakecase]];
-            
+ 
       if ([attrType isEqual:@"@\"NSString\""]) {
         [self setValue:MMNullable(value) forKey:attr];
       } else if ([attrType isEqual:@"i"] || [attrType isEqual:@"I"] || [attrType isEqual:@"f"]) {

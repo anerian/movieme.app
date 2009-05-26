@@ -270,6 +270,7 @@
 								<string>39760CD10FC5F89D00FF561D</string>
 								<string>39760EE00FCC403C00FF561D</string>
 								<string>080E96DDFE201D6D7F000001</string>
+								<string>39760D0C0FC5FB2000FF561D</string>
 								<string>39760EED0FCC412D00FF561D</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>39760D280FC6023700FF561D</string>
@@ -279,7 +280,15 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>23</integer>
+									<integer>27</integer>
+									<integer>14</integer>
+									<integer>13</integer>
+									<integer>0</integer>
+								</array>
+								<array>
+									<integer>28</integer>
+									<integer>14</integer>
+									<integer>13</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -327,7 +336,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>39760F430FCC491100FF561D</string>
+										<string>39760FBE0FCC725D00FF561D</string>
 										<key>history</key>
 										<array>
 											<string>39760D460FC6060F00FF561D</string>
@@ -352,7 +361,8 @@
 											<string>39760F270FCC481300FF561D</string>
 											<string>39760F280FCC481300FF561D</string>
 											<string>39760F310FCC484600FF561D</string>
-											<string>39760F3D0FCC489B00FF561D</string>
+											<string>39760F8C0FCC69F700FF561D</string>
+											<string>39760FB90FCC721700FF561D</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -383,6 +393,8 @@
 											<string>39760F2D0FCC481300FF561D</string>
 											<string>39760F2E0FCC481300FF561D</string>
 											<string>39760F330FCC484600FF561D</string>
+											<string>39760F850FCC684F00FF561D</string>
+											<string>39760F8E0FCC69F700FF561D</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -558,7 +570,7 @@
 						<key>Frame</key>
 						<string>{{0, 0}, {1396, 655}}</string>
 						<key>RubberWindowFrame</key>
-						<string>35 48 1396 823 0 0 1440 878 </string>
+						<string>35 50 1396 823 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugCLIModule</string>
@@ -634,10 +646,10 @@
 							<key>Frame</key>
 							<string>{{681, 0}, {715, 80}}</string>
 							<key>RubberWindowFrame</key>
-							<string>35 48 1396 823 0 0 1440 878 </string>
+							<string>35 50 1396 823 0 0 1440 878 </string>
 						</dict>
 						<key>RubberWindowFrame</key>
-						<string>35 48 1396 823 0 0 1440 878 </string>
+						<string>35 50 1396 823 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugSessionModule</string>
@@ -703,7 +715,7 @@
 		<string>/Users/min/workspace/anerian/github/movieme_app/MovieMe.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>35 48 1396 823 0 0 1440 878 </string>
+	<string>35 50 1396 823 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

@@ -47,6 +47,8 @@
 		39760EF80FCC42CA00FF561D /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 39760EF70FCC42CA00FF561D /* RegexKitLite.m */; };
 		39760F100FCC446900FF561D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 39760F0F0FCC446900FF561D /* libsqlite3.dylib */; };
 		39760F130FCC44A800FF561D /* libicucore.A.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 39760F120FCC44A800FF561D /* libicucore.A.dylib */; };
+		39760F4F0FCC4C2F00FF561D /* movieme.db in Resources */ = {isa = PBXBuildFile; fileRef = 39760F4E0FCC4C2F00FF561D /* movieme.db */; };
+		39760F810FCC678700FF561D /* MMTheaterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39760F800FCC678700FF561D /* MMTheaterController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -135,6 +137,9 @@
 		39760EF70FCC42CA00FF561D /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegexKitLite.m; path = External/RegexKitLite/RegexKitLite.m; sourceTree = SOURCE_ROOT; };
 		39760F0F0FCC446900FF561D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../../../Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/lib/libsqlite3.dylib; sourceTree = SOURCE_ROOT; };
 		39760F120FCC44A800FF561D /* libicucore.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.A.dylib; path = ../../../../../../Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/lib/libicucore.A.dylib; sourceTree = SOURCE_ROOT; };
+		39760F4E0FCC4C2F00FF561D /* movieme.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = movieme.db; sourceTree = SOURCE_ROOT; };
+		39760F7F0FCC678700FF561D /* MMTheaterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMTheaterController.h; sourceTree = "<group>"; };
+		39760F800FCC678700FF561D /* MMTheaterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMTheaterController.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* MovieMe-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MovieMe-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -209,6 +214,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				39760F4E0FCC4C2F00FF561D /* movieme.db */,
 				39760D280FC6023700FF561D /* Images */,
 				282CCBFD0DB6C98000C4EA27 /* SecondView.xib */,
 				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
@@ -285,6 +291,8 @@
 				39760D370FC602C100FF561D /* MMFavoritesController.m */,
 				39760ED70FCC3CFC00FF561D /* MMShowsController.h */,
 				39760ED80FCC3CFC00FF561D /* MMShowsController.m */,
+				39760F7F0FCC678700FF561D /* MMTheaterController.h */,
+				39760F800FCC678700FF561D /* MMTheaterController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -423,6 +431,7 @@
 				39760D300FC6027E00FF561D /* tabMovies.png in Resources */,
 				39760D350FC602B400FF561D /* tabFavorites.png in Resources */,
 				39760D3F0FC6033100FF561D /* tabTheaters.png in Resources */,
+				39760F4F0FCC4C2F00FF561D /* movieme.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +467,7 @@
 				39760EEB0FCC403C00FF561D /* FMResultSet.m in Sources */,
 				39760EF40FCC41A700FF561D /* AKNSString+Utils.m in Sources */,
 				39760EF80FCC42CA00FF561D /* RegexKitLite.m in Sources */,
+				39760F810FCC678700FF561D /* MMTheaterController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

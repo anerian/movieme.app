@@ -19,9 +19,11 @@
   NSString *zip_;
   NSString *phone_;
   
-  float distance_;
+  NSNumber *latitude_;
+  NSNumber *longitude_;
+  NSNumber *distance_;
   
-  CLLocationCoordinate2D coordinate_;
+  NSArray *shows_;
 }
 
 @property (nonatomic, retain) NSString *name;
@@ -30,9 +32,12 @@
 @property (nonatomic, retain) NSString *state;
 @property (nonatomic, retain) NSString *zip;
 @property (nonatomic, retain) NSString *phone;
-@property (nonatomic, readonly) float distance;
-@property (nonatomic, readonly) CLLocationCoordinate2D coordinate;
+
+@property (nonatomic, retain) NSNumber *latitude;
+@property (nonatomic, retain) NSNumber *longitude;
+@property (nonatomic, retain) NSNumber *distance;
 
 - (NSString *)address;
+- (NSArray *)shows;
 
 @end

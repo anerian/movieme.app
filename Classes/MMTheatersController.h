@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "MMTheater.h"
+#import "MMMovie.h"
 
 
 @interface MMTheatersController : UITableViewController<TTURLRequestDelegate> {

@@ -30,6 +30,8 @@
 }
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
+  [MMModel establishConnection];
+  
 	NSMutableArray *viewControllers = [NSMutableArray arrayWithCapacity:5];
 
   tabBarController_ = [[UITabBarController alloc] init];
